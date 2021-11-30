@@ -1,0 +1,31 @@
+a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #9812E5;
+    text-shadow: 0 0 5px #fff 0 0 5px #9812E5;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border: 1px solid #9812E5;
+    box-shadow: 0 0 10px #9812E5, 0 0 10px #9812E5, 0 0 15px #9812E5;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0f0f0f;
+    font-family: consolas;
+}
