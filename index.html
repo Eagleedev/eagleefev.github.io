@@ -1,56 +1,13 @@
-<!DOCTYPE html>
+<!-- Loading square for squar.red network --><!DOCTYPE html>
 <html>
 <head>
-	<title>opening</title>
-	<link rel="stylesheet" type="text/css" href="style2.css">
-	<script type="text/javascript">
-		<?php
-  if(isset($_POST['sendEmail'])) {
-    $privateKey = "__my_secret_key__";
-    $response = $_POST['g-recaptcha-response'];
-    $remoteip = $_SERVER['REMOTE_ADDR'];
-    $url = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$privateKey&response=$response&remoteip=$remoteip");
-
-    $result = json_decode($url, true);
-
-    if($result->success == true) {
-      $name = strip_tags(trim($_POST['eagle']));
-      $surname = strip_tags(trim($_POST['site']));
-      $userArray = [
-        'eagle' => $name,
-        'site' => $surname,
-      ];
-      var_dump($userArray);
-
-    } else {
-      echo "Vérification Complète";
-    }
-  }
-
-?>
-	</script>
+	<title>loading</title>
+	<link rel="stylesheet" type="text/css" href="loading.css">
 </head>
-
-
 <body>
-<br>
-<br>
-  <input name="nom" placeholder="nom" type="text">
-  <br>
-  <input name="prenom" placeholder="prénom" type="text">
-  </div>
 
-  <br>
 
-  
+<span class="loader"><span class="loader-inner"></span></span>
 
-  <p>
-<a href="index.html">Vérifier</a>
-  <br>
-</p>
-  
-  </form>
-  </body>
-</html>
 </body>
 </html>
