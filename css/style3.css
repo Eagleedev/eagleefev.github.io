@@ -1,0 +1,25 @@
+table
+{
+border: 3px solid #6495ed;
+width: 60%;
+background-color: #d0e3fa;
+margin:auto;
+}
+
+th
+{
+font-family: Arial;
+font-size: 1.20em;
+text-align: center;
+border: 1px solid blue;
+background-image: url(img4.jpeg);
+}
+
+td
+{
+font-family: Verdana;
+font-size: 0.80em;
+text-align: center;
+border: 1px solid blue ;
+
+}

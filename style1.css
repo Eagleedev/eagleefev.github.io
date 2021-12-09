@@ -1,0 +1,14 @@
+body{
+	color: white;
+	background-image: url(assets/css/gif/bg.gif);
+}
+
+
+.q1{
+	color: rgb(8, 255, 0);
+	font-weight: bold;
+}
+
+.cl{
+	background-color: red;
+}

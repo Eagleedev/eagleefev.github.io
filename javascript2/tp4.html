@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+		function calculate(){
+		var x= Number(document.getElementById("1").value)*Number(document.getElementById("2").value);
+	    var y=  Number(document.getElementById("4").value)*Number(document.getElementById("5").value);
+	    var z= Number(document.getElementById("7").value)*Number(document.getElementById("8").value);
+	    document.getElementById("3").value=(x);
+	     document.getElementById("6").value=(y);
+	      document.getElementById("9").value=(z);
+	       document.getElementById("10").value=(x+y+z);
+	       }
+	</script>
+</head>
+<body>
+	<form>
+<table border="1">
+<tr>
+	<td>Artile</td>
+	<td>Prix</td>
+	<td>Quantite</td>
+	<td>Resultat</td>
+</tr>
+<tr>
+	<td><input type="text" placeholder="Saisir la designation"></td>
+	<td><input type="text" placeholder="0" id="1"></td>
+	<td><input type="text" placeholder="0" id="2"></td>
+	<td><input type="text" placeholder="0" id="3"></td>
+</tr>
+<tr>
+    <td><input type="text" placeholder="Saisir la designation"></td>
+	<td><input type="text" placeholder="0" id="4"></td>
+	<td><input type="text" placeholder="0" id="5"></td>
+	<td><input type="text" placeholder="0" id="6"></td>
+</tr>
+<tr>
+	<td><input type="text" placeholder="Saisir la designation"></td>
+	<td><input type="text" placeholder="0" id="7"></td>
+	<td><input type="text" placeholder="0" id="8"></td>
+	<td><input type="text" placeholder="0" id="9"></td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="reset" name="reinitialiser"></td>
+	<td><input onclick="calculate()" type="button" value="calculer"></td>
+	<td><input type="text" placeholder="0" id="10"></td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</table>
+</form>
+</body>
+</html>

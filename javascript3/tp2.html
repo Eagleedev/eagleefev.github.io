@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function check(){
+			var nbr;
+			nbr= Number(document.getElementById("myinput").value);
+			if(nbr%2==0)
+			{
+				alert("nombre pair")
+			}
+			else 
+			{
+				alert("nombre impair")
+			}
+		}		
+	</script>
+</head>
+<body>
+Entrez un nombre : <input type="text" name="myinput" id="myinput">
+<button onclick="check()">Verifier</button>
+</body>
+</html>
