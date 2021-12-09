@@ -43,7 +43,7 @@ p {
 	perspective: 900;
 	padding: 0 20px 10px;
     margin: 0;
-    background-color: #1C1C20;
+    background-color: #306622;
 	border-radius: 5px;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 
 	0 2px 2px 0 rgba(255, 255, 255, 0.19);
@@ -70,18 +70,19 @@ p {
 	right: 0;
 }
 .accordion-menu-ul li .fas{
-	color:#f6483b;
+	color:#A800EC
+;
 	font-size: 15px;
 	margin-right: 10px;
 }
 .accordion-menu-ul li .arrow:before, .accordion-menu-ul li .arrow:after {
 	content: "";
 	position: absolute;
-	background-color: #f6483b;
+	background-color: #fff;
 	width: 3px;
 	height: 9px;
 }
-.accordion-menu-ul li .arrow:before {
+.accordion-menu-ul li .arrow:before 
 	transform: translate(-2px, 0) rotate(45deg);
 }
 .accordion-menu-ul li .arrow:after {
