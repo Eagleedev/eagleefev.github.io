@@ -1,0 +1,48 @@
+element.style {
+}
+h6 {
+    font-size: 22px;
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding-bottom: 18px;
+    color: #333;
+    font-weight: 400;
+    font-family: open sans,sans-serif;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body, button, input, select, textarea {
+    color: #444;
+    font: 16px open sans,serif;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+html {
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}

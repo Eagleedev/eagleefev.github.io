@@ -1,62 +1,92 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="style1.css">
-<script type="text/javascript" src="Qcm.js"></script>
-        <title></title>
+
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style3.css">
+    <script src="qcm.js"></script>
+    <title>Question-QCM</title>
 </head>
+
 <body>
-<center><h1><u>QCM basket</u></h1></center>
-
-<form name="quiz" id="quiz">
-<b>Question 1:</b>Quel est la voiture la plus cher?</p>
-        <ul>
-                <li><input type="radio" name="question1" value="noir" id="rep1">Bugatti la voiture Noir</li> 
-                <li><input type="radio" name="question1" value="svg" id="rep1">Lamborghini Huracan SVG</li>
-                <li><input type="radio" name="question1" value="mk5" id="rep1">Toyota Supra MK5</li>
-                
-        </ul>
-
-       
-<p><b>Question 2:</b>Quel la voiture plus legendaire?</p>
-        <ul>
-                <li><input type="radio" name="question2" value="r34">Nissan Skyline R34 GTR 2002'</li> 
-                <li><input type="radio" name="question2" value="mk4">Toyota Supra Mk4 1998'</li>
-                <li><input type="radio" name="question2" value="sti">Subaru Impereza WRX STI 2004'</li>
-        </ul>
-
-<p><b>Question 3:</b>Quel moteur est la meilleur pour rebuild ?</p>
-        <ul>
-                <li><input type="radio" name="question3" value="2jz">2JZ-GTE</li> 
-                <li><input type="radio" name="question3" value="rb26">RB26</li>
-                <li><input type="radio" name="question3" value="ls3">LS3</li>
-        </ul>
-
-<p><b>Question 4:</b>Avez quelle voiture Paul Walker c'est fait accidenter?</p>
-        <ul>
-                <li><input type="radio" name="question4" value="gt">Porsche GT</li> 
-                <li><input type="radio" name="question4" value="sky">Nissan SKyline R34</li>
-                <li><input type="radio" name="question4" value="e36">BMW E36</li>
-        </ul>
-
-
-
-
-
-
-
-<input type="button" name="" value="Effacer">
-<input type="button" name="" value="Corriger" onclick="check()">
-
-
-        <input type="button" value="correction" onclick="window.open('./correction.html');">
-</form>
-
-<div id="cl"></div>
-
-
-
+    <form action="réponse.html" name="quest">
+    <h2>Eagle Site</h2>
+    <p class="barreb"></p><br>
+    <h4>Des Question pour celui qui a des patient sur les véhicules</h4>
+    <p class="num_question">Question 1</p>
+        <p class="Q_questions">en quelle année Mercedes-Benz est crée?</p>
+        <table>
+            <tbody><tr>
+                <td><li class="rep"><input type="radio" name="1" id="rep1" value="a" onclick="Engine(1, this.value)">en 1926</li></td>
+            </tr>
+            <tr>
+                <td><li class="rep"><input type="radio" name="1" id="rep1" value="b" onclick="Engine(1, this.value)">en 1864</li></td>
+            </tr>
+            <tr>
+                <td><li class="rep"><input type="radio" name="1" id="rep1" value="c" onclick="Engine(1, this.value)">en 1943</li></td>
+            </tr>
+            
+        </tbody></table>
+        <p class="num_question">Question 2</p>
+        <p class="Q_questions"> Quelle est la voiture la plus cher en monde ?</p>
+        <table>
+            <tbody><tr>
+                <td><li class="rep"><input type="radio" name="2" id="rep1" value="a" onclick="Engine(2, this.value)">Lamborghini Aventador SVJ</li></td>
+            </tr>
+            <tr>
+                <td><li class="rep"><input type="radio" name="2" id="rep1" value="b" onclick="Engine(2, this.value)">Bugatti La Voiture Noire ‘2019</li></td>
+            </tr>
+            <tr>
+                <td><li class="rep"><input type="radio" name="2" id="rep1" value="c" onclick="Engine(2, this.value)">Rolls-Royce Phantom Hyperion</li></td>
+            </tr>
+        </tbody></table>
+        <p class="num_question">Question 3</p>
+        <p class="Q_questions">Quelle est la voiture la plus légendère en JDM ?</p>
+        <table>
+            <tbody><tr>
+                <td><li class="rep"><input type="radio" name="3" id="rep1" value="a" onclick="Engine(3, this.value)">Toyota Supra Turbo `1998</li></td>
+            </tr>
+            <tr>
+                <td><li class="rep"><input type="radio" name="3" id="rep1" value="b" onclick="Engine(3, this.value)">Nissan Skyline R34 `2002</li></td>
+            </tr>
+            <tr>
+                <td><li class="rep"><input type="radio" name="3" id="rep1" value="c" onclick="Engine(3, this.value)">Honda NSX</li></td>
+            </tr>
+            <tr>
+                <td><li class="rep"><input type="radio" name="3" id="rep1" value="d" onclick="Engine(3, this.value)">Subaru Impereza Wrx STI `2004</li></td>
+            </tr>
+        </tbody></table>
+        <p class="num_question">Question 4</p>
+        <p class="Q_questions">Combien été vendu la dernière Orginal Nissan R34 MidnightPurple III VSpec-II ? </p>
+        <table>
+            <tbody><tr>
+                <td><li class="rep"><input type="radio" name="4" id="rep1" value="a" onclick="Engine(4, this.value)">20,000$</li></td>
+            </tr>
+            <tr>
+                <td><li class="rep"><input type="radio" name="4" id="rep1" value="b" onclick="Engine(4, this.value)">250,000$</li></td>
+            </tr>
+            <tr>
+                <td><li class="rep"><input type="radio" name="4" id="rep1" value="c" onclick="Engine(4, this.value)">500,000$</li></td>
+            </tr>
+        </tbody></table>
+        <p class="num_question">Question 5</p>
+        <p class="Q_questions">Combien cheveaux fait la Toyota Supra Turbo 1998 d'origine </p>
+        <table>
+            <tbody>
+            	<tr>
+                <td><li class="rep"><input type="radio" name="5" id="rep1" value="a" onclick="Engine(5, this.value)">2000 Ch</li></td>
+            </tr>
+            <tr>
+                <td><li class="rep"><input type="radio" name="5" id="rep1" value="b" onclick="Engine(5, this.value)">320 Ch</li></td>
+            </tr>
+            <tr>
+                <td><li class="rep"><input type="radio" name="5" id="rep1" value="c" onclick="Engine(5, this.value)">250 Ch</li></td>
+            </tr>
+            </tbody></table>
+        <input type="button" value="Corriger" name="corriger" id="corriger" class="bouton" onclick="NextLevel()">
+        <input type="button" value="Refaire" class="bouton" onclick="Reset()">
+        <input type="submit" value="Réponse" name="reponse" id="reponse" class="bouton"><br>
+    </form>
 </body>
 </html>

@@ -1,0 +1,21 @@
+element.style {
+}
+form {
+    display: block;
+    margin-top: 0em;
+    color: white;
+}
+body {
+    font-family: Verdana, Calibri, fantasy;
+    margin: 0px;
+    margin-left: 100px;
+    padding: 0px;
+    background-image: img/purplethunder.jepg;
+    background-size: cover;
+    width: 87%;
+    height: 100%;
+    position: center;
+    min-height: 620px;
+    background-repeat: no-repeat;
+    color: white;
+}

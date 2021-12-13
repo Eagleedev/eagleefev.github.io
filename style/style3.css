@@ -1,0 +1,22 @@
+element.style {
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+body {
+    text-decoration-line: white;
+    margin: auto;
+    margin: center;
+    font-family: fantasy;
+    margin: 0px;
+    margin-left: 100px;
+    padding: 0px;
+    background-image: url(https://i.pinimg.com/originals/65/51/2b/65512b2c2e60e50bcd4bdecb0b1eaad8.jpg);
+    background-size: cover;
+    width: 87%;
+    height: 100%;
+    position: relative;
+    min-height: 620px;
+    background-repeat: no-repeat;
+}
